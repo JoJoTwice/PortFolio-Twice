@@ -1,0 +1,24 @@
+.picContainer{
+    display:flex;
+    flex-basis:content;
+    justify-content:left;
+    margin: 10px;
+    background-color: bisque;
+    height: 4in;
+    padding: 5px;
+}
+.hover:hover {
+    opacity: 50%;
+    background-color: pink;
+    border-radius: 100%;
+    
+}
+.headTextEdit {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    font-weight: 200;
+    color:antiquewhite
+}
+.background{
+    background-color: skyblue;
+}
