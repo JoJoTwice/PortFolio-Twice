@@ -1,11 +1,17 @@
+.centerPic{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
 .picContainer{
     display:flex;
-    flex-basis:content;
-    justify-content:left;
+    justify-content:center;
     margin: 10px;
     background-color: bisque;
     height: 4in;
+    width: 5in;
     padding: 5px;
+    
 }
 .hover:hover {
     opacity: 50%;
@@ -21,4 +27,23 @@
 }
 .background{
     background-color: skyblue;
+}
+.linkEdit{
+    display:flex;
+    color:honeydew;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    justify-content:space-around;
+}
+.linkHover:hover{
+    background-color: pink;
+    border-radius: 10px;
+    color: greenyellow;
+}
+.eduParagraphEdit{
+    display: block;
+    justify-content: center;
+    background-color: bisque;
+    text-align: center;
+    border: 2in, solid, black;
 }
