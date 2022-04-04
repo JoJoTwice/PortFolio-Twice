@@ -88,3 +88,34 @@
     font-size: small;
     color:grey;
 }
+.reveal:hover{
+    display:flex;
+    justify-content: right;
+    align-items: right;
+    opacity:100%;
+    color: pink;
+    font-size: x-small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hide{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    opacity:0%;
+    font-size: x-small;
+
+}
+.friend{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    color:floralwhite;
+    font-size: small;
+}
+.friendReveal{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    font-size: x-small;
+    color:floralwhite;
+}
