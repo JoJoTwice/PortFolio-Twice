@@ -2,15 +2,20 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    
+
 }
 .picContainer{
     display:flex;
     justify-content:center;
     margin: 10px;
-    background-color: bisque;
+    background-color: beige;
+    border-radius: 100px;
     height: 4in;
     width: 5in;
     padding: 5px;
+    margin: 5px;
+  
     
 }
 .hover:hover {
@@ -43,9 +48,11 @@
 .eduParagraphEdit{
     display: block;
     justify-content: center;
-    background-color: bisque;
+    background-color: beige;
     text-align: center;
     border: 2in, solid, black;
+    padding:15px;
+    margin:2px;
 }
 .conclusion{
     display:flex;
@@ -118,4 +125,15 @@
     align-items: center;
     font-size: x-small;
     color:floralwhite;
+}
+.eduBackground {
+    background-color: bisque;
+}
+.hrefEditor{
+    display:flex;
+    font-size: xx-small;
+    justify-content: space-around;
+    color: rgb(rgba(0, 0, 0, 0.164), green, blue);
+    font-style:calc(2);
+    
 }
