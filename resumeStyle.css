@@ -31,7 +31,7 @@
     color:antiquewhite
 }
 .background{
-    background-color: skyblue;
+    background-color: rgb(235, 186, 126);
 }
 .linkEdit{
     display:flex;
@@ -136,4 +136,28 @@
     color: rgb(rgba(0, 0, 0, 0.164), green, blue);
     font-style:calc(2);
     
+}
+.Dragon{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(201, 183, 162);
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    color:pink;
+    font-style: inherit;
+    
+    
+}
+.DragonSocial{
+    display:flex;
+    justify-content: space-around;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    height: 30px;;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 150%;
+    
+
 }
