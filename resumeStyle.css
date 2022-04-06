@@ -116,6 +116,26 @@
     opacity:0%;
     font-size: x-small;
 }
+.hideTwice{
+    display:flex;
+    justify-content:left;
+    align-items: left;
+    opacity:15%;
+    font-size: x-small;
+}
+.revealTwice{
+    transition: color 0.5s ease-in 0.25ms;
+    transition: opacity 0.7s ease-out 0.6s;
+}
+.revealTwice:hover{
+    display:flex;
+    justify-content: right;
+    align-items: right;
+    opacity:100%;
+    color: rgb(24, 11, 13);
+    font-size: x-small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .friend{
     display:flex;
     justify-content: right;
